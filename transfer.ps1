@@ -126,7 +126,7 @@ write-output "Executing line 122"
 write-output "`n - EXPORT COMMENCING - `n"
 
 try {
-	$exportCommand = '"C:\Program Files\Microsoft SQL Server\150\DAC\bin\sqlpackage.exe" /a:Export /tf:' + $bacpac + ' /scs:"Data Source=sqlserver.database.windows.net;Initial Catalog=' + $newdbName + ';User ID=transferservice;Password=EkSy6vczAuNhn7qg"'
+	$exportCommand = '"C:\Program Files\Microsoft SQL Server\150\DAC\bin\sqlpackage.exe" /a:Export /tf:' + $bacpac + ' /scs:"Data Source=sqlserver.database.windows.net;Initial Catalog=' + $newdbName + ';User ID=transferservice;Password=transferservicepw"'
 	cmd.exe /c $exportCommand
 	$currenttime = Get-Date -AsUTC -Format "yyyy-MM-ddTHH-mmZ"
 	write-output "`n - EXPORT COMPLETE - `n"
