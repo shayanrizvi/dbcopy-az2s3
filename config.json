@@ -15,7 +15,7 @@
 	"ToAddress": "devops@domain.com",
 	"FromAddress": "transferservice@domain.com",
 	"SMTPServer": "smtpserver.domain.com",
-	"Destination": "C:\\transfer\\archive",
-	"LogPath": "C:\\transfer\\logs",
+	"Destination": "C:\\transfer\\archive\\",
+	"LogPath": "C:\\transfer\\logs\\",
 	"DaysBack": -30
 }
