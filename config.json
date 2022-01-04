@@ -1,0 +1,21 @@
+{
+	"Password": "password",
+	"AppId": "appid",
+	"TenantId": "tenantid"
+	"ServiceAccount": "servicesaccount",
+	"SaPass": "sapass",
+	"AccessKey": "accesskey",
+	"SecretKey": "secretkey",
+	"BucketName": "bucketname",
+	"ResourceGroup": "resourcegroup",
+	"Server": "server",
+	"SourceDatabase": "sourcedatabase",
+	"FilePath": "C:\\transfer\\",
+	"Subject": "TRANSFER FAILED",
+	"ToAddress": "devops@domain.com",
+	"FromAddress": "transferservice@domain.com",
+	"SMTPServer": "smtpserver.domain.com",
+	"Destination": "C:\\transfer\\archive",
+	"LogPath": "C:\\transfer\\logs",
+	"DaysBack": -30
+}
